@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+group 'de.check24'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation 'commons-io:commons-io:2.11.0'
+    implementation 'org.reflections:reflections:0.10.2'
+
+    implementation 'com.itextpdf:itext7-core:7.2.3'
+
+//    implementation 'org.slf4j:slf4j-api:2.0.0'
+//    implementation 'org.slf4j:slf4j-nop:2.0.0'
+
+    implementation project(':TodoModel')
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LSToDO" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Light date picker dialog -->
+    <style name="LightDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/dark_text</item>
+        <item name="android:colorControlNormal">@color/light_main_3</item>
+        <item name="android:colorControlActivated">@color/light_main_3</item>
+
+        <item name="android:datePickerStyle">@style/LightDatePickerDialogTheme.HeaderColor</item>
+        <item name="android:background">@color/light_main_2</item>
+
+        <item name="android:windowIsFloating">true</item>
+
+        <item name="android:headerMonthTextAppearance">@style/LightDatePickerDialogTheme.HeaderColor</item>
+
+        <item name="android:buttonBarNegativeButtonStyle">@style/LightDatePickerDialogTheme.ButtonBarNegativeButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/LightDatePickerDialogTheme.ButtonBarPositiveButtonStyle</item>
+    </style>
+
+    <style name="LightDatePickerDialogTheme.ButtonBarNegativeButtonStyle" parent="android:Widget.Material.Light.ActionButton">
+        <item name="android:textColor">@color/light_text</item>
+    </style>
+
+    <style name="LightDatePickerDialogTheme.ButtonBarPositiveButtonStyle" parent="android:Widget.Material.Light.ActionButton">
+        <item name="android:textColor">@color/light_text</item>
+    </style>
+
+    <style name="LightDatePickerDialogTheme.HeaderColor" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="android:textColor">@color/light_text</item>
+        <item name="android:headerBackground">@color/light_main_2</item>
+        <item name="android:background">@color/light_main_1</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+rootProject.name = 'dualesstudium.stubbe'
+include 'TodoProgram'
+include 'TodoFileManage'
+include 'TodoModel'
+

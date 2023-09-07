@@ -1,0 +1,6 @@
+projectKey=lennard-thomasd
+serverUrl=http://172.29.40.173:10000
+serverVersion=8.9.1.44547
+dashboardUrl=http://172.29.40.173:10000/dashboard?id=lennard-thomasd
+ceTaskId=AYJtztKoRjeDide-Q-lp
+ceTaskUrl=http://172.29.40.173:10000/api/ce/task?id=AYJtztKoRjeDide-Q-lp

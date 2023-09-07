@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id "org.sonarqube" version "3.4.0.2513"
+    id 'org.kordamp.gradle.jacoco' version '0.47.0'
+}
+
+group 'de.check24'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+apply from: "$project.rootDir/sonar.gradle"
