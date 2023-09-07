@@ -1,4 +1,4 @@
-rootProject.name = 'dualesstudium.stubbe'
+rootProject.name = 'todo'
 include 'TodoProgram'
 include 'TodoFileManage'
 include 'TodoModel'
